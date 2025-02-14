@@ -19,7 +19,7 @@ prescribed by calling the organization’s travel agency to book a hotel near th
 </p><p>You tell the agent that you’ll arrive the next morning. You also let your work supervisor know that you’ve been activated to respond, an arrangement that has worked well since you began volunteering to provide spiritual care in disasters. You’ll be gone the following Monday to Friday.</p>
       `, 
       options: [
-        { text: `<p><b>Reflect</b></p><p>What experiences in a chaplain's own life and career might come up in the pre-screening questions? What might make a chaplain hesistant to respond to a violent, traumatic disaster?</p>`, conditions: {type: null, command: "NEXT", index: null}, feedback: `` },
+        { text: `What experiences in a chaplain's own life and career might come up in the pre-screening questions? What might make a chaplain hesistant to respond to a violent, traumatic disaster?`, conditions: {type: null, command: "NEXT", index: null}, feedback: `` },
       ],
       multipleSelect: false,
       type: "open", 

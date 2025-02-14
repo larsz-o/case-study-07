@@ -211,7 +211,7 @@ const DecisionLayout = (props) => {
                       key={i}
                       className="flex-column flex-end input-area"
                     >
-                      <Body text={option.text} />
+                      <p className="answer-select">{option.text} </p> 
                       <input type="text" onChange={e => setInput(e.target.value)} />
                       <div className="flex-box flex-end">
                         <button className="button button-small" onClick={e => handleInput(option.text)}>submit</button>
