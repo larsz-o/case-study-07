@@ -15,6 +15,7 @@ const LayoutPicker = () => {
 
 
   useEffect(() => {
+    window.scrollTo(0,0)
     updateLayoutNumber(scene.layoutNumber);
     console.log(scene.scene_number)
   }, [lesson, scene.layoutNumber, scene.scene_number]);

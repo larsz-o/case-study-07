@@ -80,7 +80,7 @@ const PartII = (props) => {
         });
     }
     function advance() {
-
+        window.scrollTo(0,0)
         setAdvance(false)
         // if we have data, add it here.
         // we need to get the object back, so search for it here.
